@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "github-activity"
+version = "0.1.0"
+description = "A simple Python package to get the activity of a GitHub user."
+authors = [{name='Carlos'}]
+dependencies = [
+    "requests",
+    "python-dotenv",
+]
+
+[project.scripts]
+github-activity = "main:main"
