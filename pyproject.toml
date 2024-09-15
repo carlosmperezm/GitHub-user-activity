@@ -10,6 +10,7 @@ authors = [{name='Carlos'}]
 dependencies = [
     "requests",
     "python-dotenv",
+    'redis',
 ]
 
 [project.scripts]

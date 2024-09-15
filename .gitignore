@@ -1,0 +1,11 @@
+.env
+*venv*
+*.db
+*.sqlite3
+*.log
+*.cache
+*.egg-info
+*.egg
+__pycache__
+dump.rdb
+
