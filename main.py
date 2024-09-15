@@ -1,4 +1,3 @@
-
 from typing import Any,Dict,List
 from argparse import ArgumentParser,Namespace
 from dotenv import load_dotenv
@@ -52,7 +51,6 @@ def main() -> None:
 
     args = parser.parse_args()
     
-    first_time = time.time_ns()
     get_user_activity(args)
     
 
